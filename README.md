@@ -28,6 +28,14 @@ To see the hardware nvidia configurations type the below command in terminal:
 nvidia-smi
 ```
 
+create directories required using commands:
+```
+mkdir ./pretrained
+mkdir ./pretrained/init
+mkdir ./data
+mkdir ./log
+```
+
 ### Setup the Environment
 Create the virtual environment from terminal using conda package manager
 ```
@@ -35,6 +43,8 @@ conda create -n textseg python=3.7
 conda activate textseg
 pip install -r requirement.txt
 ```
+
+
 ### To do Ineference
 Download the pretrained model from [Link](https://drive.google.com/file/d/1GQp1lf1-UbVYiESbMEw-XYQmTUQbXYl0/view?usp=sharing)
 
