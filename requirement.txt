@@ -4,3 +4,4 @@ matplotlib
 opencv-python
 easydict==1.9
 tqdm
+gdown
