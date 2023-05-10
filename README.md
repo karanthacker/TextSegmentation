@@ -46,8 +46,8 @@ pip install -r requirement.txt
 
 
 ### To do Ineference
-Download the pretrained model from [Link](https://drive.google.com/file/d/1GQp1lf1-UbVYiESbMEw-XYQmTUQbXYl0/view?usp=sharing)
-
+Download the pretrained model from [Link](https://drive.google.com/file/d/1GQp1lf1-UbVYiESbMEw-XYQmTUQbXYl0/view?usp=sharing).
+Place the model pth extension file in __pretrained__ folder.
 Place the image to be tested in the __test__ folder. 
 
 run the command:
@@ -59,16 +59,8 @@ python inference.py --input test/filename.jpg --output test_output/filename_out.
 Download Dataset from the [Link](https://drive.google.com/drive/folders/1bpjsgB_VmLh3igWBtdzLtyrdVqsWy4bj?usp=sharing). Unzip all the files and place the main folder in __data__ directory.
 
 Download the pretrained model from [Link](https://drive.google.com/file/d/1GQp1lf1-UbVYiESbMEw-XYQmTUQbXYl0/view?usp=sharing). Drop it in the directory __pretrained__ .
+Place the model pth extension file in __pretrained__ folder.
 
 ```
 python main.py --eval --pth pretrained/texrnet_hrnet.pth --hrnet --gpu 0  --dsname textseg
-```
-
-### To Train 
-create directory with command: `mdkir pretrained/init` 
-
-Download the pretrained model from [Link](https://drive.google.com/file/d/1hT9t13zWgrGEgmL0RE9AJfGIMX0dw_M8/view?usp=sharing).
-
-```
-python main.py --eval --pth pretrained/texrnet_hrnet.pth --hrnet --gpu 0 --dsname textseg
 ```
