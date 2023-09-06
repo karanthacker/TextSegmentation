@@ -1,7 +1,5 @@
 # Text Segmentation
 
-This is a reproducibility study conducted on Paper [Rethinking Text Segmentation](https://arxiv.org/abs/2011.14021).
-
 ## Introduction
 Text Refinment Net (TexRNet) is an innovative technique for text segmentation that accommodates the distinctive features of text such as non-convex boundaries and diverse texture. These features are often challenging for conventional segmentation models to handle. TexRNet enhances the outcomes obtained from standard segmentation approaches by utilizing key feature pooling and attention to modify inaccurately-activated text regions. Moreover, trimap and discriminator losses are introduced, that have resulted in substantial enhancements in text segmentation.
 
@@ -56,7 +54,6 @@ python inference.py --input test/filename.jpg --output test_output/filename_out.
 ```
 
 ### To Test
-Download Dataset from the [Link](https://drive.google.com/drive/folders/1bpjsgB_VmLh3igWBtdzLtyrdVqsWy4bj?usp=sharing). Unzip all the files and place the main folder in __data__ directory.
 
 Download the pretrained model from [Link](https://drive.google.com/file/d/1GQp1lf1-UbVYiESbMEw-XYQmTUQbXYl0/view?usp=sharing). Drop it in the directory __pretrained__ .
 Place the model pth extension file in __pretrained__ folder.
